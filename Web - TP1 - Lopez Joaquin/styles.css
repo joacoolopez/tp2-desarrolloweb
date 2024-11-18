@@ -1,0 +1,121 @@
+body{
+    background-color: #0369a1;
+    margin:0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+#titulo {
+    text-align: center;
+    color: #082f49;
+}
+
+#imagenPerfil {
+    width: 250px;
+}
+
+#imagenFrase {
+    width: 100%;
+    background-image: url('images/wave.jpg');
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+#frase {
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.subtitulo {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.rojo{
+    background-color: red;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.violeta{
+    background-color: violet;
+}
+
+tr td p {
+    font-size: 40px; 
+    margin: 0; 
+    text-align: center;
+}
+
+.contenedorImagenes{
+    display: flex;
+    align-items: center;
+}
+
+
+.contenedorGusto{
+    width: 300px;
+    height: 75px;
+    background-color: #bae5fd;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorGusto p {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.gustos {
+    justify-content: space-evenly;
+}
+
+.sitios {
+    justify-content: space-around;
+}
+
+.jabulani{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0px 30px 0px 30px;
+}
+
+.navbar ul li  a{
+    font-size: 20px;
+    font-weight: 700;
+    color: #082f49;
+}
+
+.navbar{
+    background-color: #075885;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
